@@ -12,7 +12,9 @@ Netflix Layout clone, using Owl Carousel 2. Made with HTML, CSS3 and Javascript 
 
 <h2>Mobile view (width: 375px)</h2>
 
+
 ![print-devflix2](https://user-images.githubusercontent.com/77693259/107721508-92a67a00-6cbb-11eb-8301-9c8bfb46c124.PNG)
+
 
 
 <h2>Owl Carousel 2 (responsive)</h2>
