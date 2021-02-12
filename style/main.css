@@ -1,0 +1,188 @@
+:root {
+    --vermelho: #ff0000;
+    --preta: #000000;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes bounce {
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        -webkit-transform: translateY(0);
+    }
+
+    40% {
+        -webkit-transform: translateY(-10px);
+        -webkit-transform: translateY(-10px);
+    }
+
+    80% {
+        -webkit-transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+    }
+
+}
+
+
+/*elemento base*/
+body {
+    background: var(--preta);
+    font-family: 'Arial', Times, serif;
+    color: #ffffff
+}
+
+
+header .container {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+
+
+header .logo {
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', sans-serif;
+    font-size: 40px;
+}
+
+
+header nav a {
+
+    text-decoration: none;
+    color: #ffffff;
+    margin-right: 10px;
+}
+
+
+header nav a:hover {
+    color: #ff0000;
+}
+
+
+/* filme principal */
+.filme-principal {
+    font-size: 16px;
+    background: url('/img/capa-riverdale.png');
+    width:100%;
+    background-size:cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.filme-principal .descricao {
+
+    margin-top: 2%;
+    margin-bottom: 40px;
+    font-family: sans-serif;
+}
+
+
+.filme-principal .titulo {
+    margin-top: 30%;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+
+.botao {
+    background-color: rgba(0, 0, 0, .50);
+    border: none;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+
+.botao i {
+    margin-right: 5px;
+}
+
+
+.botao:hover {
+    animation: bounce 1s;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.carrosel-filmes i {
+    margin-right: 8px;
+}
+
+
+.container {
+    margin-left: 30px;
+}
+
+.filme-principal .container {
+    width: 70%;
+}
+
+
+/* catalogo de filmes */
+.carrosel-filmes{
+    margin-top: 5px;
+}
+
+
+.box-filme {
+    height: 20rem;
+    width: 15rem;
+    display: block;
+}
+
+.box-filme i {
+    width: 100%;
+    position: absolute;
+}
+
+
+.botao-filmes {
+    background-color: rgba(0, 0, 0, .50);
+    position:absolute; 
+    top: 50%;
+    left: 50%;
+    border-radius: 0.9rem;
+    color: #ffffff;
+    transition: all 0.5s;
+    transform: translate(-50%, -50%);
+    padding: 5px 10px;
+    margin-right: 5px;
+    font-size: 5px;
+    cursor: pointer;
+}
+
+
+.botao-filmes i {
+    font-size: 10px;
+    padding: 5px 10px 5px 15px;
+}
+
+
+.botao-filmes:hover {
+    
+    padding: 10px 10px 10px 10px;
+    margin-right: 1px;
+    transition: .3s ease all;
+}
+
+
+.genero {
+    margin: 5px 0 10px 10px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
