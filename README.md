@@ -1,5 +1,5 @@
-:movie_camera: <h2> Projeto - Recriando a interface da Netflix </h2>​ :movie_camera:
+ <h2>Projeto - Recriando a interface da Netflix :movie_camera:</h2>​
 
-<p>Bootcamp WebDeveloper - Digital Innovation One.</p>​ :computer:
+<p>Bootcamp Web Developer - Digital Innovation One.</p>​ :computer:
 
-![image-20210211215853430](C:\Users\fabio\AppData\Roaming\Typora\typora-user-images\image-20210211215853430.png)
+![print-devflix](https://user-images.githubusercontent.com/77693259/107720264-c8962f00-6cb8-11eb-93a5-eb6aee2eca35.PNG)
